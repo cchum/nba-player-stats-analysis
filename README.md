@@ -1,11 +1,16 @@
-# NBA Player Stats Analysis
+## NBA Player Stats API
 
-Initial exploratory data analysis of NBA player statistics using pandas.
+This project ingests NBA player statistics, cleans and analyzes them using pandas,
+stores them in PostgreSQL, and exposes insights via a FastAPI backend.
 
-**Dataset:** Basketball-Reference NBA player stats  
-**Tools:** Python, pandas, Jupyter Notebook
+### Tech Stack
+- Python
+- Pandas
+- PostgreSQL
+- SQLAlchemy
+- FastAPI
 
-Next steps:
-- Data cleaning
-- Position-based analysis
-- Team comparisons
+### Features
+- Data cleaning & feature engineering
+- PostgreSQL data persistence
+- API endpoints for top players
